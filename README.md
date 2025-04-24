@@ -20,7 +20,7 @@ Nesta primeira atividade, vocês deverão **definir a temática do projeto e ela
 4. **Justificativa:** Explique por que escolheu esse tema e sua relevância.
 5. **Objetivos:** Quais são os resultados esperados ao final do projeto?
 
-🔹 **Entrega:** A atividade deverá ser entregue em formato de **documento escrito (PDF ou DOCX)**, com aproximadamente **1 a 2 páginas** contendo as informações acima.
+🔹 **Entrega:** A atividade deverá ser entregue em formato de **documento escrito (PDF ou DOCX)**, com aproximadamente **1 a 2 páginas** contendo as informações acima, sendo obrigatório o uso das Normas ABNT para escrita e formatação do arquivo.
 
 🔹 **Prazos:** [Definir data conforme calendário da disciplina]
 
