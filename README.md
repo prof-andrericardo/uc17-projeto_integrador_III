@@ -1,97 +1,148 @@
-------
+# 💻 Projeto Integrador III – UC17  
+![GitHub repo size](https://img.shields.io/github/repo-size/prof-andrericardo/uc17-projeto_integrador_III)
+![GitHub license](https://img.shields.io/github/license/prof-andrericardo/uc17-projeto_integrador_III)
+![GitHub last commit](https://img.shields.io/github/last-commit/prof-andrericardo/uc17-projeto_integrador_III)
+![GitHub issues](https://img.shields.io/github/issues/prof-andrericardo/uc17-projeto_integrador_III)
+![GitHub forks](https://img.shields.io/github/forks/prof-andrericardo/uc17-projeto_integrador_III)
+![GitHub stars](https://img.shields.io/github/stars/prof-andrericardo/uc17-projeto_integrador_III)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/prof-andrericardo/uc17-projeto_integrador_III?style=for-the-badge)
- ![GitHub last commit](https://img.shields.io/github/last-commit/prof-andrericardo/uc17-projeto_integrador_III?style=for-the-badge)
- ![GitHub issues](https://img.shields.io/github/issues/prof-andrericardo/uc17-projeto_integrador_III?style=for-the-badge)
- ![GitHub forks](https://img.shields.io/github/forks/prof-andrericardo/uc17-projeto_integrador_III?style=for-the-badge)
- ![GitHub stars](https://img.shields.io/github/stars/prof-andrericardo/uc17-projeto_integrador_III?style=for-the-badge)
+📘 Repositório oficial da disciplina **UC17 – Projeto Integrador III** do **3º Ano do Ensino Médio Técnico em Informática**, sob orientação do professor **André Ricardo**, no **Colégio Victorino**.
 
-# 💻 UC17 – Projeto Integrador III
+---
 
-🎓 **Curso Técnico em Informática Integrado ao Ensino Médio**
- 🏫 **Colégio Victorino**
- 👨‍🏫 **Professor:** André Ricardo
- 📩 **Email:** [andrericardo@colegiovictorino.com.br](mailto:andrericardo@colegiovictorino.com.br)
- 👨‍🎓 **Turma:** 3º Ano do Ensino Médio Técnico em Informática
+## 🎯 Objetivo Geral
 
-------
+Desenvolver um sistema completo aplicando os conhecimentos adquiridos ao longo do curso técnico, envolvendo: levantamento de requisitos, prototipação, modelagem de dados, codificação backend/frontend, versionamento com Git e apresentação técnica.
 
-## 📚 Sobre a Disciplina
+---
 
-A Unidade Curricular UC17 – Projeto Integrador III tem como objetivo integrar os conhecimentos adquiridos nas disciplinas técnicas do curso para o desenvolvimento de um projeto autoral, simulando demandas do mundo real da tecnologia.
+## 🧩 Tecnologias Utilizadas
 
-Durante o ano, os alunos realizam as etapas de levantamento de requisitos, planejamento, prototipação, modelagem de banco de dados, codificação e apresentação funcional do sistema, promovendo o aprendizado ativo, trabalho em equipe, organização de repositórios GitHub e uso de ferramentas profissionais como Figma, MySQL, HTML/CSS/JS e Python/Node.js.
+| Finalidade         | Tecnologia                                                   |
+| ------------------ | ------------------------------------------------------------ |
+| Protótipo          | [Figma](https://figma.com)                                   |
+| Banco de Dados     | [MySQL 8.0](https://www.mysql.com/)                          |
+| Backend            | [Flask (Python)](https://flask.palletsprojects.com/) ou [Express (Node.js)](https://expressjs.com/) |
+| Frontend           | HTML5 + CSS3 + JavaScript                                    |
+| Controle de Versão | [Git e GitHub](https://github.com/)                          |
+| Testes de API      | [Insomnia](https://insomnia.rest/)                           |
 
-------
+---
 
-## 🧭 Estrutura do Repositório
+## 🗂️ Estrutura de Diretórios
 
 ```bash
 uc17-projeto_integrador_III/
-├── README.md                 # Página inicial do repositório
-├── docs/                     # Documentos por trimestre
-│   ├── 01-sintese-do-projeto.md
-│   ├── 02-planejamento-do-projeto.md
-│   ├── 03-levantamento-de-requisitos.md
-│   ├── 04-base-para-prototipacao.md
-│   ├── 05-prototipo-inicial-figma.md
-│   ├── planejamento_2ºtrimestre.md
-│   └── ... (futuros arquivos do 3º trimestre)
-├── prototipos/
-│   ├── figma-link.md         # Link do protótipo Figma
-│   └── telas-png/            # Imagens das telas criadas no Figma
-├── database/
-│   ├── schema.sql            # Script de criação do banco
-│   └── scripts/              # Comandos DDL, DML, DQL utilizados
-└── src/                      # Código-fonte do sistema
-    ├── frontend/             # HTML, CSS, JS
-    └── backend/              # Flask ou Node.js
+├── docs/                          # Documentação e materiais de aula
+│   ├── aulas/                     # Aulas em formato Markdown
+│   └── planejamento_2ºtrimestre.md
+├── prototipos/                   # Protótipos e imagens do Figma
+│   ├── figma-link.md
+│   └── telas-png/
+├── database/                     # Banco de dados e scripts
+│   ├── schema.sql                # Script principal com tabelas
+│   └── scripts/                  # DML, consultas e extras
+├── src/
+│   ├── backend/                  # Backend (Flask ou Node)
+│   │   ├── app.py / index.js
+│   │   ├── db/                   # Conexão com MySQL
+│   │   └── routes/               # Rotas por entidade
+│   └── frontend/                 # Interface do usuário
+│       ├── login.html
+│       ├── dashboard.html
+│       └── css/
+│           └── style.css
+├── .gitignore
+├── README.md
+├── LICENSE
+├── requirements.txt              # Dependências do Flask
+└── package.json                  # Dependências do Node.js
 ```
 
 ------
 
-## 🗓️ Planejamentos por Trimestre
+## 📄 Documentação Detalhada
 
-| Trimestre                        | Arquivos de Referência      |
-| -------------------------------- | --------------------------- |
-| **1º Trimestre**                 | 01-sintese-do-projeto.md    |
-| 02-planejamento-do-projeto.md    |                             |
-| 03-levantamento-de-requisitos.md |                             |
-| 04-base-para-prototipacao.md     |                             |
-| **2º Trimestre**                 | planejamento_2ºtrimestre.md |
-| 05-prototipo-inicial-figma.md    |                             |
-| **3º Trimestre**                 | *(em construção)*           |
+Todos os materiais da disciplina estão documentados em Markdown:
+
+- 📌 Planejamento do 2º Trimestre
+- 📚 Aulas completas em `docs/aulas/`
+- 📷 Protótipos exportados em PNG em `prototipos/telas-png/`
+- 📑 Link oficial do Figma em `prototipos/figma-link.md`
+- 📂 Scripts SQL organizados por tipo (DDL, DML, DQL)
 
 ------
 
-## 🧰 Tecnologias Utilizadas
+## ⚙️ Arquivos de Configuração
 
-- 🎨 Figma (protótipos visuais)
-- 🐍 Python + Flask *(ou)* ☕ Node.js (backend)
-- 🐬 MySQL (banco de dados relacional)
-- 🖥️ HTML + CSS + JavaScript (frontend)
-- 🗃️ Git e GitHub (versionamento e repositório)
+| Ferramenta | Arquivo            | Finalidade                       |
+| ---------- | ------------------ | -------------------------------- |
+| Git        | `.gitignore`       | Ignorar arquivos desnecessários  |
+| Python     | `requirements.txt` | Instalação de dependências Flask |
+| Node.js    | `package.json`     | Gerenciamento com npm            |
+| DotEnv     | `.env.example`     | Modelo para variáveis sensíveis  |
+
+> ⚠️ Recomenda-se **NUNCA versionar** o arquivo `.env`, apenas o modelo `.env.example`.
 
 ------
 
-## 📌 Referências e Recursos
+## 🚀 Como Executar
 
-- [Documentação do Flask](https://flask.palletsprojects.com/)
-- [Documentação do Node.js](https://nodejs.org/)
+### 🐍 Flask (Python)
+
+```bash
+# Backend
+cd src/backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python app.py
+```
+
+### ⚙️ Node.js
+
+```bash
+# Backend
+cd src/backend
+npm install
+npm start
+```
+
+> 🔄 O frontend pode ser aberto diretamente no navegador via `login.html`.
+
+------
+
+## 🧪 Como Testar
+
+- 🔎 Teste suas rotas com o [Insomnia](https://insomnia.rest/)
+- 🧱 Verifique o banco de dados com o MySQL Workbench ou DBeaver
+- 🌐 Acesse as telas no navegador e use `fetch` para integrar com a API
+
+------
+
+## 🏷️ Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais informações.
+
+------
+
+## 👨‍🏫 Contato
+
+**Professor:** André Ricardo
+ 📧 [andrericardo@colegiovictorino.com.br](mailto:andrericardo@colegiovictorino.com.br)
+ 🏫 Colégio Victorino
+
+------
+
+## 📌 Referências
+
+- [Markdown Guide](https://www.markdownguide.org/)
 - [MySQL Docs](https://dev.mysql.com/doc/)
-- [Guia de Markdown](https://www.markdownguide.org/)
-- [Guia de HTML/CSS](https://developer.mozilla.org/pt-BR/docs/Web)
+- [Node.js Docs](https://nodejs.org/)
+- [Flask Docs](https://flask.palletsprojects.com/)
+- [Figma Help](https://help.figma.com/)
 
 ------
 
-## 🤝 Contribuição
+### ✨ Sinta-se livre para contribuir com melhorias, pull requests e sugestões!
 
-> Alunos devem contribuir por meio de **forks**, **pull requests** e **issues** com descrição clara. Nomear os arquivos com o padrão: `grupoXX-nome_arquivo.md`
-
-------
-
-## 📄 Licença
-
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
-
-------
